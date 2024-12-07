@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+      {
+          "name": "C/C++ Runner: Debug Session",
+          "type": "cppdbg",
+          "request": "launch",
+          "args": [],
+          "stopAtEntry": false,
+          "externalConsole": true,
+          "cwd": "C:/Users/aneov/OneDrive/바탕 화면/대학교/차소웨/.vscode",
+          "program": "C:/Users/aneov/OneDrive/바탕 화면/대학교/차소웨/.vscode/game.exe",
+          "MIMode": "gdb",
+          "miDebuggerPath": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gdb.exe",
+          "setupCommands": [
+              {
+                  "description": "Enable pretty-printing for gdb",
+                  "text": "-enable-pretty-printing",
+                  "ignoreFailures": true
+              }
+          ]
+      }
+  ]
+}
